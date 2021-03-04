@@ -13,10 +13,12 @@ $('.hamburger-menu > ul > li > a').css({
     "color" : "white"
 });
 
+//Cambia colore con quando il mouse ci passa sopra
 $('.hamburger-menu > ul > li > a').mouseenter(function () {
     $(this).css("color", "red");
 });
 
+//Cambia colore quando il mouse non è più sopra
 $('.hamburger-menu > ul > li > a').mouseleave(function () {
     $(this).css("color", "white");
 });
