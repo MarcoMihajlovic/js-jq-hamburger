@@ -14,9 +14,9 @@ $('.hamburger-menu > ul > li > a').css({
 });
 
 $('.hamburger-menu > ul > li > a').mouseenter(function () {
-    document.getElementsByTagName("A").style.color = red;
+    $(this).css("color", "red");
 });
 
 $('.hamburger-menu > ul > li > a').mouseleave(function () {
-    document.getElementsByTagName("A").style.color = white;
+    $(this).css("color", "white");
 });
